@@ -1,0 +1,1644 @@
+REQUEST DATE : March 19th 2023, 4:50:06 pm
+API URL : http://localhost:3005/api/admin/signup
+API PARAMETER : {}
+Error : CastError: Cast to ObjectId failed for value "{ _id: 'signup' }" (type Object) at path "_id" for model "Admin"
+
+REQUEST DATE : March 19th 2023, 4:50:35 pm
+API URL : http://localhost:3005/api/admin/signup
+API PARAMETER : {}
+Error : CastError: Cast to ObjectId failed for value "{ _id: 'signup' }" (type Object) at path "_id" for model "Admin"
+
+REQUEST DATE : March 19th 2023, 4:52:52 pm
+API URL : http://localhost:3005/api/hcadmin/adminSignup
+API PARAMETER : {}
+Error : CastError: Cast to ObjectId failed for value "{ _id: 'adminSignup' }" (type Object) at path "_id" for model "Admin"
+
+REQUEST DATE : March 19th 2023, 4:53:54 pm
+API URL : http://localhost:3005/api/hcadmin/adminSignup
+API PARAMETER : {"name":"Smit","email":"admin@smit.com","password":"admin@123"}
+Error : CastError: Cast to ObjectId failed for value "{ _id: 'adminSignup' }" (type Object) at path "_id" for model "Admin"
+
+REQUEST DATE : March 19th 2023, 4:54:51 pm
+API URL : http://localhost:3005/api/hcadmin/adminSignup
+API PARAMETER : {"name":"Smit","email":"admin@smit.com","password":"adminsm@123"}
+Error : CastError: Cast to ObjectId failed for value "{ _id: 'adminSignup' }" (type Object) at path "_id" for model "Admin"
+
+REQUEST DATE : March 19th 2023, 4:57:03 pm
+API URL : http://localhost:3005/api/hcadmin/adminSignup
+API PARAMETER : {"name":"Smit","email":"admin@smit.com","password":"adminsm@123"}
+Error : Error: Illegal arguments: object, number
+
+REQUEST DATE : March 19th 2023, 5:05:47 pm
+API URL : http://localhost:3005/api/hsadmin/adminSignup
+API PARAMETER : {"name":"xyzadmin","email":"admin@xyz.com","password":"adminxym@123"}
+Error : Error: Illegal arguments: object, number
+
+REQUEST DATE : March 19th 2023, 5:13:50 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"admin@smit.com","password":"adminsm@123"}
+Error : Error: Illegal arguments: object, string
+
+REQUEST DATE : March 19th 2023, 5:14:50 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"admin@smit.com","password":"adminsm@123"}
+Error : ReferenceError: password is not defined
+
+REQUEST DATE : March 19th 2023, 5:15:52 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"admin@smit.com","password":"adminsm@123"}
+Error : ReferenceError: password is not defined
+
+REQUEST DATE : March 19th 2023, 5:17:09 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"admin@smit.com","password":"adminsm@123"}
+Error : ReferenceError: password is not defined
+
+REQUEST DATE : March 20th 2023, 10:26:05 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"name":"designer1","email":"designer1@gmail.com","password":"designer123"}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
+REQUEST DATE : March 20th 2023, 10:26:44 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"name":"designer1","email":"designer1@gmail.com","password":"designer123"}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
+REQUEST DATE : March 20th 2023, 10:42:02 am
+API URL : http://localhost:3005/api/hsarchitect/architectLogin
+API PARAMETER : {"architectEmail":"smit123@gmail.com","architectPassword":"smit123"}
+Error : ReferenceError: jwt is not defined
+
+REQUEST DATE : March 20th 2023, 10:42:56 am
+API URL : http://localhost:3005/api/hsarchitect/architectLogin
+API PARAMETER : {"architectEmail":"smit123@gmail.com","architectPassword":"smit123"}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 20th 2023, 10:43:16 am
+API URL : http://localhost:3005/api/hsarchitect/architectLogin
+API PARAMETER : {"architectEmail":"smit123@gmail.com","architectPassword":"smit123"}
+Error : ReferenceError: ArchitectAuthLog is not defined
+
+REQUEST DATE : March 20th 2023, 9:41:33 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"User123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:43:18 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"User123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:46:19 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"User123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:46:33 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"User123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:48:17 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"gffdfg"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:49:54 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"Name":"User1","Email":"User1@xyz.com","Password":"gffdfg"}
+Error : ValidationError: userPassword: Path `userPassword` is required., userName: Path `userName` is required., userEmail: Path `userEmail` is required.
+
+REQUEST DATE : March 20th 2023, 9:50:17 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 20th 2023, 9:52:11 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {}
+Error : ValidationError: userPassword: Path `userPassword` is required., userName: Path `userName` is required., userEmail: Path `userEmail` is required.
+
+REQUEST DATE : March 20th 2023, 9:52:42 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 21st 2023, 10:01:02 am
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"User1","userEmail":"User1@xyz.com","userPassword":"123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 21st 2023, 10:02:18 am
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"userName":"smit","userEmail":"smit@xyz.com","userPassword":"smit123"}
+Error : ValidationError: userName: Path `userName` is required.
+
+REQUEST DATE : March 21st 2023, 10:11:09 am
+API URL : http://localhost:3005/api/hsuser/userLogin
+API PARAMETER : {"userEmail":"smit@xyz.com","userPassword":"smit123"}
+Error : ReferenceError: USerDb is not defined
+
+REQUEST DATE : March 21st 2023, 10:11:43 am
+API URL : http://localhost:3005/api/hsuser/userLogin
+API PARAMETER : {"userEmail":"smit@xyz.com","userPassword":"smit123"}
+Error : ReferenceError: UserDb is not defined
+
+REQUEST DATE : March 21st 2023, 10:58:49 am
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {"name":"xyzadmin","email":"admin@xyz.com","password":"adminxym@123"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integerREQUEST DATE : March 21st 2023, 11:04:57 am
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {"name":"xyzadmin","email":"admin@xyz.com","password":"adminxym@123"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 11:05:20 am
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {"name":"xyzadmin","email":"admin@xyz.com","password":"adminxym@123"}
+Error : TypeError: req.params.trim is not a function
+
+REQUEST DATE : March 21st 2023, 11:06:14 am
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {"name":"xyzadmin","email":"admin@xyz.com","password":"adminxym@123"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 11:08:16 am
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e7be762744ef458f6aa7
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:06:07 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:06:54 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:07:35 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:09:19 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:10:52 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:11:18 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:31:33 pm
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 12:32:01 pm
+API URL : http://localhost:3005/api/hsuser/DeleteUser/:641935ea0e783421bca82b7d
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 3:00:34 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"name":"SmitJogani","email":"Smithodj@123gmail.com","password":"1234567","type":"user"}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
+REQUEST DATE : March 21st 2023, 9:12:18 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:%206417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 9:12:28 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 9:48:29 pm
+API URL : http://localhost:3005/api/hsarchitect/DeleteArchitect/:6417e9a10c5f7a97c21ab3c2
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:03:17 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=20
+API PARAMETER : {"architectName":"smit","architectEmail":"smit123@gmail.com","architectPassword":"smit123"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:03:52 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=20&search=designer1
+API PARAMETER : {"architectName":"smit","architectEmail":"smit123@gmail.com","architectPassword":"smit123"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:08:09 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=20
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:08:19 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=210
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:08:26 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=10
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:08:36 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=10&search=designer
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:10:31 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:11:06 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:11:11 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?search=designer
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:20:19 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=20&search=designer1
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:20:27 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=20&search=designe
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:20:37 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=10&search=designe
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 21st 2023, 10:27:10 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect?page=1&limit=10&search=designe
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 22nd 2023, 12:04:26 am
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"jaggadaku","email":"jaggadaku@234gmail.com","password":"jagga123"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 12:04:28 am
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"jaggadaku","email":"jaggadaku@234gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"PkHulZ0oz3J2dAPMs9B+SXNMRvsNf1FbJnrutLKljS8=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"sEaZAIbgKRmaVdFqq4arzTrspwPamQCsSZPZfMTsozk3DqED3Ijt9VRdEhwb9EKXXWotz3YoMQTrzOT/p3KSq98qQBYnZSQOxxdGDSapaCirkdfl+jCjc3GCpzcUgmbwnVxdiOU0lbYRCnFMpZHL/EJoM7GES+QPRc/f5ZyCWdk=\"},\"cipher\":\"Dgds6uwlYjYjW4yQKs+phQ==\"}"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 12:35:03 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"abad","email":"abd@gmail.com","password":"1234fndks"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 1:17:13 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"abc","email":"abc@gmail.com","password":"asd234"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 1:19:05 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"abdcd","email":"adsb@gmal.com","password":"asd23"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 1:23:22 pm
+API URL : http://localhost:3005/api/hsuser/userSignup
+API PARAMETER : {"name":"","email":"","password":"dhiawuhias"}
+Error : ReferenceError: type is not defined
+
+REQUEST DATE : March 22nd 2023, 1:23:44 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"name":"smit","email":"smitjogani00@gmail.com","password":"smit@123"}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 22nd 2023, 1:27:48 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {}
+Error : ReferenceError: ArchitectDB is not defined
+
+REQUEST DATE : March 22nd 2023, 1:27:51 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {}
+Error : ReferenceError: ArchitectDB is not defined
+
+REQUEST DATE : March 23rd 2023, 8:44:31 am
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerSignup
+API PARAMETER : {"interiorDesignerName":"","interiorDesignerEmail":"","interiorDesignerPassword":""}
+Error : ValidationError: interiorDesignerPassword: Path `interiorDesignerPassword` is required., interiorDesignerName: Path `interiorDesignerName` is required., interiorDesignerEmail: Path `interiorDesignerEmail` is required.
+
+REQUEST DATE : March 23rd 2023, 11:16:13 am
+API URL : http://localhost:3005/api/hsinteriordesigner/interiorDesignerDetails
+API PARAMETER : {}
+Error : TypeError: Cannot read properties of undefined (reading 'split')
+
+REQUEST DATE : March 23rd 2023, 11:19:15 am
+API URL : http://localhost:3005/api/hsinteriordesigner/getInteriorDesigner/641a72123f2b8ae6ddb88f89
+API PARAMETER : {}
+Error : ReferenceError: ArchitectDB is not defined
+
+REQUEST DATE : March 23rd 2023, 11:26:33 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : ReferenceError: ArchitectDB is not defined
+
+REQUEST DATE : March 23rd 2023, 11:28:09 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 11:31:05 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 11:31:22 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 11:32:08 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 11:54:33 am
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 12:00:09 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 12:08:25 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 12:09:14 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 12:09:57 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 12:10:14 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 23rd 2023, 3:25:44 pm
+API URL : http://localhost:3005/api/hsarchitect/UpdateArchitectDetails/641a70573f2b8ae6ddb88f70
+API PARAMETER : {"architectName":"Allen Obama","architectEmail":"allen01@gmail.com","architectPassword":"allen123","architectPhone":"8454748393","architectGst":" 07AAGFF2194N1Z1","architectAdd":"A-34 walg hub","architectCity":"california","architectPincode":"298129","architectState":"U.S.A.","architectCountry":"America"}
+Error : MongooseError: Operation `architects.findOneAndUpdate()` buffering timed out after 10000ms
+
+REQUEST DATE : March 23rd 2023, 7:00:36 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"purohit jahagir","architectEmail":"PUROHIT@GMAIL.COM","architectPassword":"pu273829"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 23rd 2023, 11:29:21 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"archi","architectEmail":"abc@gmail.com","architectPassword":"12345"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 12:41:07 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 12:41:07 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 10:34:18 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 10:34:18 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 10:36:22 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"raj moli","architectEmail":"rajmoli@gmail.com","architectPassword":"12345678"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 10:41:15 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect@gmail.com","architectPassword":"12345678"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 10:58:27 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"raj moli","architectEmail":"rajmoli@gmail.com","architectPassword":"123456"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 11:06:15 am
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : ValidationError: ipAddress: Path `ipAddress` is required.
+
+REQUEST DATE : March 24th 2023, 11:09:41 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 11:09:41 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 24th 2023, 12:50:58 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect@gmail.com","architectPassword":"123456"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 3:25:15 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : ValidationError: ipAddress: Path `ipAddress` is required.
+
+REQUEST DATE : March 24th 2023, 3:26:50 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : ValidationError: ipAddress: Path `ipAddress` is required.
+
+REQUEST DATE : March 24th 2023, 3:31:54 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : ValidationError: ipAddress: Path `ipAddress` is required.
+
+REQUEST DATE : March 24th 2023, 3:41:35 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 24th 2023, 3:42:39 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 24th 2023, 3:59:47 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"chacha","architectEmail":"cha@gmail.com","architectPassword":"123"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 24th 2023, 4:10:04 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : ReferenceError: result is not defined
+
+REQUEST DATE : March 24th 2023, 4:10:40 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : ReferenceError: result is not defined
+
+REQUEST DATE : March 24th 2023, 4:11:22 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+
+REQUEST DATE : March 24th 2023, 4:12:07 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : ReferenceError: search is not defined
+
+REQUEST DATE : March 24th 2023, 4:12:43 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : ReferenceError: totalDocs is not defined
+
+REQUEST DATE : March 24th 2023, 6:31:07 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"smit","architectEmail":"SMIT123@gmail.com","architectPassword":"123"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 27th 2023, 1:37:06 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:37:10 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"sj4MmDoUu6uV4DaORGrIe41QP7gFrgWqUyvAZoUJ+tI=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"LPTtRVszgq+BGQQxkOzBDDqKmz7uLqbS9F1WTLhYsQZJTt2tNwicU7RS2VR5VVoinUr4B79ylvdFT69x5G9YOJ3ziKLuK6VEgG5UeAcDDIq5Fv3GhBsYrgF3Cdk51j6ZeZzSZL3O8r3N4ZjKevWWrwvX+Gfym28+ZpRW3SYoSA8=\"},\"cipher\":\"nQ/vcprNrqXy7mPDNcvBCw==\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:37:11 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"wtHnNdHBcWmT8tu6hlq8p+yUtpDNNNQCt2jKiMJIg1Q=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"Vy/t9lqxkDSV90T/4BsObbKKUAHSvZVPrIL2/Bf1jAp28jUHemI0KJ5DcC7NhMNeLPG+nhdwpHOOdeLYLHqVT5DiZ/ESr/AfIrYtI1NpdH9sceZnCNGKBsszE/atr3qugFeEqoV0zOHlzf3GDM9UgEEqTJJ+0qH/LpkYXu0Q1zc=\"},\"cipher\":\"MqnEXGFcOMs/+MxCtxCiQnJVg/EHjWb7hbb+4ZZC9ODDpGknHjiy76vRHRvI3Bfe0oPkjvDsNHrYIoL+f5Ih/upuL7aO3ok/tVGh20kvx2k152qj6wJ4ceiNLb2J2WD3MJ2fggbXmPke9q+0mGGZSGExR8QIFW4XTffbvUZj1f1yIqwZsOBTrv8+DGXDdB9HV4VAugTLPejxGuxOTz0g3yn9iG+DEiEJdz3WnPG3d/OIY/oUwpBkLpIXrV6i0fkd7mNVjQDbA3l8qnlf2jOsKGPNXSe6P35GEDwSoT/EepU4hD1+rnhI96UOZr37iOyouYCVPUK9p9Jvwo3UeKi90yOFubzVvyufRoWii3vVgm49inb6+z6MQGg+cjAzSol00lWZu5LM+Zal1jTLlL1ky5h1ha0cu8uXmJQtt6tdcnZWQ5OupXGJ18I3ygaROaCAo/erq0OuyiWHZZi8iAubgTTqakvrvIGI0zMcJpD69Ak=\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:37:11 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"kEUo/ks6G6dIpk1H+6Wzh5TbWo+EeUkmoUJN2I3YwC0=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"Or0luVG4zI55ZJKe0PfTeX6feC0D35tf2Iqqyb6BdK0e2szwcouHWZwEZbsrCN4zq3XaSDDnXiQv4C8oWhNQ7D1HxA16K0bqo13Vx41PwEaYGv/hGzMB5Y1l2KH5RsLkadsakDIT7Uyai5UZrElASdpjujk8VTaOtj4olW/MvCI=\"},\"cipher\":\"cvyvr44vGz1SAzmdwmvkb99nqVrWk6TXYagFHm18LQ2SVeRVai1YZNKSnz/pKoU+TQS5qOOsoHF63drfuIyWozGh5BjlJxl3WCuE9v0QATcpsUXX8Z0CkqPuDpCG08ckcpitkSVA3czlDuUZi57UeJR3rRIEMfL+g2vte0h4hFoT/51Oa7nn/ou3t0knSQZyYyN0Y5lrUX0+6b7i2T+yz0KPmEWrPgbuqzhxWKZf3v+matlo/cohfws2rssrGTZ+wvh0UiFC/Bl5lcb8OM+CwTqnLczdyeU6oQTgMxW3v1g+QjbQA5HsKQCVIauzpv5oBnWG840RSA9NVGPdp+7dSkuZCBBp1xz+Zon3jVIG0p6kVV3PWBVli8jUW6KhkCQDX5ZYcP+djQUCFjVFzt7KeIk7Iq3TskqKAU9TMw/H3zRr2FVDfXOCX4ugZ+xNSYGrUb9BfcFcypBbPz5BjoUKIUjnuRvPtYgRD1HLI/W3pSCwFByDz5z/eB/F3OQ8jALhXy/DUDJWVoBoTLe/8JTOLiYk5fSliF8nBoZADNQSDE3KpM9IbHj6TCQ40+QB+9LiC05SWa2Ia5mbjj7Ag2hfey+Qx+Ct3bKGTGe2VnWiXCGPZ0AqAV0hHrmpE9OdLjRxnQXv+qOMyYAYLtBT3+HqA0jj13cb7BlRnMrek6wXrG37MjLMZpwLi5a1OkU2W44KQk4X2d3mj610IKBNBuNm8MMl2RO3rhFjSayOcFv58vAxUUrQu+yrQaSnPuu1Dbw21BV5j0AziG0ExvalOwkhh1vgcRCaFgUYnKIF42UaikMrxpUs9CgzAVUD74eSrjIF4HsrqBjyA4WHrMK/EpW+VoKDiuKB/TsCSY0ZZRPOfSBK5BFKuckW+imPy9S3rPYgNtIQrx7f7PWAhiV4riSFG+uqEGVfPNVRfFyvTt3DXoQZj5QQvOo12L39SBUG77Iu+0eIgfj7BOXhAAe6NlrwJFgQDyhIM/EUF2AYZLnch50V6wxVjfDjsXZprPkmB+ChfQLUhsItO/C0gAHNLtxyqd+69Uahlag+k87FsneJQTaUfpZ83uWC4BT64xeegFuEsf7X1zHoxY1+O7TKY3V+epiRuM4DtChXEuv7KpSuetE=\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:37:49 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:37:55 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"BFfmSpn1wrZjNVJuxUgbsQCM4FqFq2IYOwZCzrgya5Y=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"n0xXeouCsOTB+LaZrVCcSAVfvSmugsz0jBgCy7s3daYE1S1wFO2aZcnTPFhzsjV8bo5Vc24U3ESpp0rq15lfxxFCj9uMR4SbHc+Nbk8xxC2NiKVrQK0XxNIQOHSm0tp/AVh5TIQs+jfRAh/sANlrSptLhJOOwiSoHo86jZwmsps=\"},\"cipher\":\"mJt6MTHBuNeMlSBNR6VMJA==\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:38:21 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:38:23 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"WO9SkzkqiT0OxfKh2j5uHl6H8dZzgzhen5RlvmSh62U=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"DKnHP9oSHawjuyj8LPLPUbXrG2ugk5MVqwomdvu4HPEgfex8u/WmE05slN4T9uZ+n7TfSlwy0UKTzFNB+CRZHK1ngQ9qK5TYZjeN0x5d9FHw0sb8hX3EFRYmbVDVC+5Kdnohhvqr3lzHMuYVVx3YTnfjHi4EnM+bSLUeH9BmI3M=\"},\"cipher\":\"UvrC8M0Ztee+CZZLWk+83A==\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:38:24 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"p0hIieHAhp7Iy1OABgFRSuPnLFxJklRdfFNRFx1rnbc=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"OP0S3ADX/EnhOWUB2v5oSRJCJdvbl9CqiOTRuw6pzY1cinOjD+/wZJIAM1JG4DPPV6NM/Cz3Ofguyo8NWxDB/6abQqW8ira8/YdYd4U03CFRcefzQn0n4pVGuy7V6wPUPo+W3joUX9WKqOpZtzrUKoXd+Ix4GAHe7nsaCAY1wdg=\"},\"cipher\":\"ODCZr1x4tjzFp6AJZ0+YjSWmRihO5CmwyZ2Qix2ioCUDZFAQLgKqlJT3DlGi/NTYu1yIYR8PmOPaPcPvrDBOLf4rGeI0AarD42WakCQCF/OyjK6jUKE1E693MqeS+ECB0q1goRxtJeDtKu/gF6C6ynZvQDcor09GoMuL4IRAIoo8jAADDqJWXq9fK5MyvIyikbeocOo4PTm5uSFghqIWOSUkxWNexruayP8kO69pGgR+Lpjug6hEb/pX2cDnn289Rdl7abBD66sn2AlRfvVPxOWq7UGDG8cq6MGud6tUjd4dhQ5mYemZHZs23xnCdXDjV4CTAzKGhv0TY05dxP7PdgxdGwR9Q5G4fW46dotIv4tYcUx88aWxswn6YeVnoFuanUbamcHaGYrFkxADiwfsfmGEeixtwFzmsxVljy5K2l5bambTH3EY/3jFbX0XyKqYu9zw6Qi371n3o6M0NcC0E+SXFoYq13EwUVyhl1bki5w=\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:28 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:32 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"UkcqYl04U14iggrslF49CZ2blYDMw7gFDpHD1Zjr7Jw=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"oS0nEEbJuSg2atnaqCCY5VVIXYnhVNFozE98SQhE2Er9A7bzxCcjBYdng2XzduZO4E5FXa5CG8TbrmDkk+mKS6cbBR7YfR6EoACVLDSOdEUkSDd6xN3MzqsyqTLmB2fHizF6xeySmBoWnsc6Q5s9WH1+bQ82nVA++QFGuPX1s3U=\"},\"cipher\":\"dkdJ6WVSJcPZ+XzTN7D7/Q==\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:34 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"fhCTC0wIsv4BiU0GGA/USmrnm3DVCGXDfO2qSqmhS74=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"ilPEQdmmkmKaIZ43U2w7WsTfGTWNYyDNWkxbzok2DcfNmD9IEymiLAP3dofzWjLP5sHFKpj97VuLH2T6gblAvgbW+lKx6x+mHjmc7w0u5zplOxGkQH4Z16DHYzm42JY3ZjnI4ExGKiw4FPG5pAL2Q0Rap049zQBFmYei6n5zjZ0=\"},\"cipher\":\"WICOdcolo7YVrX1q+AL3xHc8WPafejTz9Pe4fDOvjmhQUFc7VOyKXGw14lcw7tZtr3GeMF/YMiOaKaUEMm+j4Usk5D2fkptpsGn8K23h2K1+blaOV4baQUXvVVGYyx3IoAa+vzO7YRQMveKuJwhxry4jxckMtuT73EmPKepE/bxeGvTm8zUgf3o1/KhoIhHzt4Z4fqb/7Z38PPkZHY2XtZeS+DuL+7Olj74A3ZoVKBfoBdVjfB6zpyePFCYoqlszD+15ZeogOXk2E6OgL2bwJtjVxPtrfzFjPOvM2tZWMXR2/wd5ZyCNUJvdBmEBwI61TrizM7ttDubB/UNdKvSBc+sdZjAmmFpRsjF7iZm6yAKRfiHhO0KddXUwYEBHKlaX45KySBmKosPAdOoSlmGKflHk83CuL2A+PX5IPZRQd9n0lM/Dl899ajPgqEHm6ZOetXOaNODyviPRdRJ+m4g3itb+VOENRPabD8UiqJjRJI0=\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:39 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:39 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/ListofInteriorDesigner
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 1:40:39 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 27th 2023, 3:54:51 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 3:54:51 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 4:49:49 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 4:49:49 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 4:50:05 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 4:50:05 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:01:47 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:01:47 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:03:13 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:03:13 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:03:52 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 27th 2023, 8:03:52 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 11:36:08 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 11:36:08 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 11:37:05 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 11:37:05 am
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 4:49:01 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 4:49:01 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 28th 2023, 6:00:16 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:19 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:20 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:20 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:20 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:20 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:28 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect","architectEmail":"architect345@gmail.com","architectPassword":"345"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:48 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"abc","architectEmail":"abc123@gmail.com","architectPassword":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:50 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"abc","architectEmail":"abc123@gmail.com","architectPassword":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:50 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"abc","architectEmail":"abc123@gmail.com","architectPassword":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:00:51 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"abc","architectEmail":"abc123@gmail.com","architectPassword":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : March 28th 2023, 6:11:20 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"architect2","architectEmail":"ar1234@gmail.com","architectPassword":"1234"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 28th 2023, 11:48:30 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:48:30 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:48:43 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:48:43 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:49:32 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:49:32 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:49:48 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:49:48 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:51:48 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 28th 2023, 11:55:01 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : ReferenceError: config is not defined
+
+REQUEST DATE : March 30th 2023, 9:08:19 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:08:42 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"query":"\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:10:50 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:15:17 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:17:02 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:18:31 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:19:00 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:19:05 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:24:11 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:26:16 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:28:16 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 9:29:36 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Bedroom Design","productSize":"20 x 20ft","productLocation":"Ooty","productPrice":"23000","productImage":"demo","designerId":"641a716e3f2b8ae6ddb88f80"}
+Error : ReferenceError: porjectObject is not defined
+
+REQUEST DATE : March 30th 2023, 12:08:08 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/642510788539350070e11df9
+API PARAMETER : {"interiorDesignerName":"warner bell","interiorDesignerEmail":"bell123@gmail.com","interiorDesignerPassword":"bell23","interiorDesignerPhone":"4637487730","interiorDesignerGst":"24AADCB2230M1Z2","interiorDesignerAdd":"A-12, Bulker Street","interiorDesignerCity":"Denmark","interiorDesignerPincode":"890038","interiorDesignerState":"Dutch","interiorDesignerCountry":"Portugal"}
+Error : ReferenceError: architect is not defined
+
+REQUEST DATE : March 30th 2023, 12:19:09 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/642510788539350070e11df9
+API PARAMETER : {}
+Error : ObjectParameterError: Parameter "filter" to update() must be an object, got 642510788539350070e11df9
+
+REQUEST DATE : March 30th 2023, 10:12:00 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"anubhav","architectEmail":"anu234@gmail.com","architectPassword":"234"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 31st 2023, 9:58:39 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"ravi","architectEmail":"ravi123@gmail.com","architectPassword":"23"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 31st 2023, 10:17:56 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"jay","architectEmail":"jay234@gmail.com","architectPassword":""}
+Error : ValidationError: architectPassword: Path `architectPassword` is required.
+
+REQUEST DATE : March 31st 2023, 10:18:00 am
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"jay","architectEmail":"jay234@gmail.com","architectPassword":"234"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 31st 2023, 10:49:35 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 10:50:36 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 10:54:34 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 11:41:19 am
+API URL : http://localhost:3005/api/hsProduct/updateProduct/64267500fea466ae187d9e05
+API PARAMETER : {}
+Error : ReferenceError: mongodb is not defined
+
+REQUEST DATE : March 31st 2023, 11:41:57 am
+API URL : http://localhost:3005/api/hsProduct/updateProduct/64267500fea466ae187d9e05
+API PARAMETER : {}
+Error : ReferenceError: designId is not defined
+
+REQUEST DATE : March 31st 2023, 11:42:24 am
+API URL : http://localhost:3005/api/hsProduct/updateProduct/64267500fea466ae187d9e05
+API PARAMETER : {}
+Error : TypeError: mongoose.ObjectID is not a constructor
+
+REQUEST DATE : March 31st 2023, 11:48:22 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 11:48:45 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 11:48:56 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {}
+Error : TypeError: Cannot set properties of undefined (setting 'productPrice')
+
+REQUEST DATE : March 31st 2023, 12:01:38 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"ajay","architectEmail":"ajay890@gmail.com","architectPassword":"890"}
+Error : ReferenceError: architectCount is not defined
+
+REQUEST DATE : March 31st 2023, 9:33:47 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 31st 2023, 9:33:47 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 31st 2023, 9:33:53 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : March 31st 2023, 9:33:53 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 1st 2023, 11:07:52 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'split')
+
+REQUEST DATE : April 1st 2023, 11:08:21 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'split')
+
+REQUEST DATE : April 1st 2023, 11:11:13 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'split')
+
+REQUEST DATE : April 1st 2023, 11:30:46 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:31:21 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:33:32 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:33:46 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:40:58 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:41:04 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:41:44 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 1st 2023, 11:58:59 pm
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 2nd 2023, 12:00:16 am
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 2nd 2023, 12:03:44 am
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 2nd 2023, 12:05:20 am
+API URL : undefined://undefinedundefined
+API PARAMETER : undefined
+Error : TypeError: Cannot read properties of undefined (reading 'authorization')
+
+REQUEST DATE : April 2nd 2023, 12:08:10 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Room Design","productSize":"23 x 25ft","productLocation":"New York","productImage":"C:\\fakepath\\7.jpg","productPrice":"770000","designerId":"64271951865a3b9e6c110a0"}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "64271951865a3b9e6c110a0" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 2nd 2023, 12:08:44 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Room Design","productSize":"23 x 25ft","productLocation":"New York","productImage":"","productPrice":"770000","designerId":"64271951865a3b9e6c110a0"}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "64271951865a3b9e6c110a0" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 2nd 2023, 12:08:51 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Room Design","productSize":"23 x 25ft","productLocation":"New York","productImage":"","productPrice":"770000","designerId":"64271951865a3b9e6c110a0"}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "64271951865a3b9e6c110a0" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 2nd 2023, 12:10:43 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Room Design","productSize":"25 x 25ft","productLocation":"New York","productImage":"","productPrice":"29000","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 3rd 2023, 10:23:05 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Mountain","productSize":"70 x 70ft","productLocation":"Canada","productImage":"C:\\fakepath\\7.jpg","productPrice":"300000","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 3rd 2023, 10:23:41 am
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Mountain","productSize":"70 x 70ft","productLocation":"Canada","productImage":"C:\\fakepath\\7.jpg","productPrice":"300000","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 6th 2023, 6:45:47 pm
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"","productSize":"","productLocation":"","productImage":"","productPrice":"","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 6th 2023, 6:45:49 pm
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"","productSize":"","productLocation":"","productImage":"","productPrice":"","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 6th 2023, 6:46:37 pm
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"","productSize":"","productLocation":"","productImage":"","productPrice":"","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 6th 2023, 7:27:48 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:27:48 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:30:38 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:30:38 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:31:45 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:31:45 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:32:00 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:33:01 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:33:02 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:37:11 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:37:11 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:37:43 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:37:43 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:38:08 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:38:08 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:38:57 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:38:57 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:39:12 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:39:12 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:40:40 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:40:40 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:40:48 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:40:48 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:44:50 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:44:50 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:44:56 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 6th 2023, 7:44:56 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 13th 2023, 3:18:56 pm
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Office Design","productSize":"170 x 178ft","productLocation":"Hawaii","productImg":"","productPrice":"4300000","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 13th 2023, 3:18:57 pm
+API URL : http://localhost:3005/api/hsProduct/createProduct
+API PARAMETER : {"productName":"Office Design","productSize":"170 x 178ft","productLocation":"Hawaii","productImg":"uploads\\product\\2023-04-13-15-04-13-d23.jpg","productPrice":"4300000","designerId":""}
+Error : ValidationError: designerId: Cast to ObjectId failed for value "" (type string) at path "designerId" because of "BSONTypeError"
+
+REQUEST DATE : April 13th 2023, 4:20:47 pm
+API URL : http://localhost:3005/api/hsarchitect/UpdateArchitectDetails/6437ddcab7760c577392dcb6
+API PARAMETER : {"architectName":"Kenny Kulkarni","architectEmail":"kenny789@gmail.com","architectPassword":"789","architectPhone":"7564664744","architectGst":"ASDFGHJMNV","architectAdd":"67 Error Platinuam","architectCity":"Ontario","architectPincode":"738373","architectState":"Windsore","architectCountry":"Canada","architectProfile":""}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 13th 2023, 4:20:50 pm
+API URL : http://localhost:3005/api/hsarchitect/UpdateArchitectDetails/6437ddcab7760c577392dcb6
+API PARAMETER : {"architectName":"Kenny Kulkarni","architectEmail":"kenny789@gmail.com","architectPassword":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"Jc9JDRFAgjB6y1E2FQHWrXP9hk9wmWk+wOuK+dkL9ag=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"ZGz7YRVi7YVda5Lpe01CEHeVF58pRz9UBbEFphAzXQIJ+uvbjbgzxS3DHnvJ8i8wJILIx0RdDGxv0v5/2yH1j3ryHZh4XtQASQAZubHDu3YUMbCHBhMZkzblhuzHdYEepuB2piiJvJkRifQQ5n3dgK4SBW5yJ1YH3GoGaGrP5Ek=\"},\"cipher\":\"eXm/x07wKFqaiT70F0KmiA==\"}","architectPhone":"7564664744","architectGst":"ASDFGHJMNV","architectAdd":"67 Error Platinuam","architectCity":"Ontario","architectPincode":"738373","architectState":"Windsore","architectCountry":"Canada","architectProfile":"uploads\\ArchitectProfile\\2023-04-13-16-04-66-de9.jpg"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 13th 2023, 4:20:51 pm
+API URL : http://localhost:3005/api/hsarchitect/UpdateArchitectDetails/6437ddcab7760c577392dcb6
+API PARAMETER : {"architectName":"Kenny Kulkarni","architectEmail":"kenny789@gmail.com","architectPassword":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"tiPeII2Lo7nQ59jnD960R+irrijaS4SGR3Kca9bFMVM=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"O//DKKJwoonCPyN8MBSXb2yatV7twF+0dt+uy6VejUMq45i15WVDB/ZeeEOEwEszb5Mh/icUYqrDC7qOPkXdIqgRzQbCTDc1uGa9paqgrH1dgnZmRMYXQgg0S0+3nBQ1lzmlHkWreGnwK+YElXWzsIkNR2XN/CZ0EYeDEsazGCI=\"},\"cipher\":\"Yft2fHrQ8zUpRucnNarHUhkGMwieOclBZqp88SINnllwjkNFPFkzXMuKeFnvBTtHd4ayrESW6r47dx3h5YmhMWJHq2PQA2BAWHvZ3RYWf3P75H9mmmy1IXkPUhzOJKSjQvHcjPZG6lY2zHT43GUbTd72+7t+bJUbn2Dq9x0ro4NCBwvltUculEQasN0iNDTJ1ygyRSulsSIoTCWNz4NGxZFc3/dO4NkJlSp94wkE6xoX9Ov0upc9Zf+cwJJf+ibBemeqc1CEuYdsL8NesjkjwubB24dQtPsSf+KoRMSxts7DsyOu75jPpAVCTkzz5RjBTGjwW97g7P0e+dLp/X73Vkxf5Rn/dg9cESDC/EgbRkmY+oyDk/yG/mVqnKV+fI8wyXiCDjbIclzJVsSJ30L30YjFQljm5Y6Hv6SZifqwwTGoayBUKU837/h5Y7a+obvwOcbaleQ4bQYtpLqD7+xe3gspgbGR/r5g1TZPhtrKGg0=\"}","architectPhone":"7564664744","architectGst":"ASDFGHJMNV","architectAdd":"67 Error Platinuam","architectCity":"Ontario","architectPincode":"738373","architectState":"Windsore","architectCountry":"Canada","architectProfile":"uploads\\ArchitectProfile\\2023-04-13-16-04-66-de9.jpg"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 13th 2023, 4:20:51 pm
+API URL : http://localhost:3005/api/hsarchitect/UpdateArchitectDetails/6437ddcab7760c577392dcb6
+API PARAMETER : {"architectName":"Kenny Kulkarni","architectEmail":"kenny789@gmail.com","architectPassword":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"zJkc64WoOaqjMukysKHxQ+uyZ0xWEKZZ5XkxqcM4JW8=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"eryiZC7KfwbhpQ8KDHH6CB1WoePp+FmImfd7b3cuip8U7n4mA2lZDymwRRvcDZtuOwRoup+5FwQCQVs4L4e/DjLSFWk/8coigN8oUbSzAoU3Pm2YSxj7c10B+cH40YqH54dOxabXuNN54wK2NoD1tFqDLY3E9Y3DJuIFb0NWHxQ=\"},\"cipher\":\"LueJscZhHOnJ2oEDUNsEN1EvUY7mJXh/HZ3XlhrNSoqBK4VT4VBypfZ75sBnSIXN2O6NwRvSIIo3jq4ZjIrmPopLM2JNeSFd/3oDK1q/AlSv1/DM+fGM1T5TMV5/Jk6U/Nx3sUXOkMUzzPTv05J5o4OJxC2SxRl0NeYz2YI5MPEjm2gWdRGlkuECB8y1am2CDBxTGlHrgSYrduAygxj0jch0aLvWBBWUAyxcgySIEwcrIe+s4UNLfI9sll9b3YJjS5AEuZXJxveDYvSrtQgfk/cQzSDVN2/3YSBzoGbXkKfISKSFmZytNtPo1O3N7eQoEJL3QVSIo9+1JLfcDiDnWnJpIsEXwiZx1QwUUnynYl2ImKSZxLJ2gi2Pg9IryWiLHfwmE5fAXyO8KvqYFbtL9FNIoI6gqFCnWEYUS8iun0pQ1NAYZ+rTL5Q+YuqX652YPyxrQxUCmpnkAMwAItJST+z4MRJuKCJthexcDfOeuDHcdjqvCIP/5cV86rRAz8nE8Kp7gBBjLAHDR3HqB8u877vIRmH7Nv5oGbRM2/uE7k3zj3Q5ISICBvUqtLfjfD+M4dFbyIrQ5AaDT/5Q92NyvsZHH++2kAPnwnbV1MQANDuPPKDm5pgs8WtaFSVPSfwwtDG2pPN0l5Vtoi3eG2KoNF1wLrocUDojLdDy6ZQvtYCLQt2BqbsGCAyLbOExbAUenB6HletDjbI6wIuAu2Vf2YmhfNCX2ZKw2DBi4ccCXUemJnj/5MSkkbdS6n8sZpfqenK0NuEbADkJ9lp8J2fIhetNBqiHgaWbTK+R4G8YCL+sRPM74C9JnJiscgzq4Wj3FEtpHKjbQoWsJs7KM6o72/3zb+AHxXUXNZevOQ/SuFm+3Lt3RJCpCBBeX0KD9qsYrhi7ojr3bf3em+5XoVQyRpq3ehH9xcnmCCo7fe8DjhBZr9hvLynDsP4E9uqy0jSUKMv5HKj3WkAyhsG/6aSDymEqawhr4cD1o88vRlZYTiBMDuqSJCOSyecbCNCUVMHfF3q9jwWtnMdErvcABoB51XNeiJK9qnr6T39IPTcc+7mTaii9v1LgJytxakPk8BMxoDKSeiT9MwdKzvASmQG46QZ2wEP4+upMVAz7oMBtIcw=\"}","architectPhone":"7564664744","architectGst":"ASDFGHJMNV","architectAdd":"67 Error Platinuam","architectCity":"Ontario","architectPincode":"738373","architectState":"Windsore","architectCountry":"Canada","architectProfile":"uploads\\ArchitectProfile\\2023-04-13-16-04-66-de9.jpg"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 13th 2023, 4:21:13 pm
+API URL : http://localhost:3005/api/hsuser/ListofUsers
+API PARAMETER : {}
+Error : MongooseError: Operation `users.countDocuments()` buffering timed out after 10000ms
+
+REQUEST DATE : April 18th 2023, 5:01:44 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"50 x 50ft","productLocation":"Mumbai","productImg":"C:\\fakepath\\b10.jpg","productPrice":"370000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:01:46 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"50 x 50ft","productLocation":"Mumbai","productImg":"C:\\fakepath\\b10.jpg","productPrice":"370000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:01:47 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"50 x 50ft","productLocation":"Mumbai","productImg":"C:\\fakepath\\b10.jpg","productPrice":"370000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:01:47 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"50 x 50ft","productLocation":"Mumbai","productImg":"C:\\fakepath\\b10.jpg","productPrice":"370000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:03:11 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"40 x 40ft","productLocation":"Hawaii","productImg":"C:\\fakepath\\b10.jpg","productPrice":"5000000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:03:16 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"40 x 40ft","productLocation":"Hawaii","productImg":"C:\\fakepath\\b10.jpg","productPrice":"5000000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 5:04:39 pm
+API URL : http://localhost:3005/api/hsProduct/updateProduct/[object%20Object]
+API PARAMETER : {"productName":"Office Design","productSize":"170 x 178ft","productLocation":"surat","productImg":"C:\\fakepath\\b10.jpg","productPrice":"4300000"}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 18th 2023, 9:28:13 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/6439443c4bc977d7fb381598
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 18th 2023, 9:28:13 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/6439443c4bc977d7fb381598
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 18th 2023, 9:28:51 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/6439443c4bc977d7fb381598
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 18th 2023, 9:28:51 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/6439443c4bc977d7fb381598
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:21:56 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:00 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:02 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:02 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:08 pm
+API URL : http://localhost:3005/api/hsarchitect/ListofArchitect
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:11 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/ListofInteriorDesigner
+API PARAMETER : {}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:22:58 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"123"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 4:23:02 pm
+API URL : http://localhost:3005/api/hsadmin/adminLogin
+API PARAMETER : {"email":"jenny@gmail.com","password":"{\"v\":\"hybrid-crypto-js_0.2.4\",\"iv\":\"aYaAFPONqQtxCUduza+cuTbQ96UdTR6E0SdKomLj5Ec=\",\"keys\":{\"4e:d4:4c:b0:98:d7:c5:85:89:5e:fe:5b:ca:ab:4a:17:20:fa:ef:1a\":\"d2Q25NvVSkAhNfc0EGzcLo/zzif800FfIkVYubYMI1FtwV2+lz6Nmpd4k7raFfZeKHJLNi+lGFq1WM5QeHyIzNYcVCCcSgVhNLhELwsCITS0oZtWw3oYUlvoQ06Tgt1b52cqkS/iOjMeALmJtw2LqSerLTYUSFVkPc4K87Im7sw=\"},\"cipher\":\"bF/HhwP0/kau4CW+YIJloA==\"}"}
+Error : MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+
+REQUEST DATE : April 19th 2023, 7:51:28 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:29 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:29 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:29 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:52 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:52 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:52 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:51:52 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:21 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:21 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:21 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:21 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:23 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:52:23 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:28 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:28 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:28 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:28 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:47 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:54:47 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:55:37 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 7:55:37 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:02:15 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:02:15 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:05:22 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:05:22 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:05:40 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:06:32 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/getInteriorDesigner/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/getInteriorDesigner/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:32 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/getInteriorDesigner/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsarchitect/getArchitect/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsinteriordesigner/getInteriorDesigner/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 19th 2023, 8:07:44 pm
+API URL : http://localhost:3005/api/hsProduct/getproductbydesignerId/undefined
+API PARAMETER : {}
+Error : BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+REQUEST DATE : April 20th 2023, 10:47:57 am
+API URL : http://localhost:3005/api/hsProduct/noOfDesignById/643ff55e632071c17dfacf1c
+API PARAMETER : {}
+Error : TypeError: ProductDb.find.count is not a function
+REQUEST DATE : April 20th 2023, 2:20:10 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"","architectEmail":"","architectPassword":""}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
+REQUEST DATE : April 20th 2023, 2:20:11 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"","architectEmail":"","architectPassword":""}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
+REQUEST DATE : April 20th 2023, 2:20:34 pm
+API URL : http://localhost:3005/api/hsarchitect/architectSignup
+API PARAMETER : {"architectName":"","architectEmail":"","architectPassword":""}
+Error : ValidationError: architectPassword: Path `architectPassword` is required., architectName: Path `architectName` is required., architectEmail: Path `architectEmail` is required.
+
